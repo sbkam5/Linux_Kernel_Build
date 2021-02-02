@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sof_rt5682.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/boards/snd-soc-sof_rt5682.ko sound/soc/intel/boards/snd-soc-sof_rt5682.o sound/soc/intel/boards/snd-soc-sof_rt5682.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-pcm1681.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-pcm1681.ko sound/soc/codecs/snd-soc-pcm1681.o sound/soc/codecs/snd-soc-pcm1681.mod.o;  true

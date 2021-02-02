@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-msm8916-digital.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-msm8916-digital.ko sound/soc/codecs/snd-soc-msm8916-digital.o sound/soc/codecs/snd-soc-msm8916-digital.mod.o;  true

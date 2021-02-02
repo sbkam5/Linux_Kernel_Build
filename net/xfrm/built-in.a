@@ -1,0 +1,23 @@
+!<thin>
+//                                              142       `
+xfrm_policy.o/
+xfrm_state.o/
+xfrm_hash.o/
+xfrm_input.o/
+xfrm_output.o/
+xfrm_sysctl.o/
+xfrm_replay.o/
+xfrm_device.o/
+xfrm_proc.o/
+espintcp.o/
+
+/0              0           0     0     644     626424    `
+/15             0           0     0     644     414784    `
+/29             0           0     0     644     6952      `
+/42             0           0     0     644     138544    `
+/56             0           0     0     644     101376    `
+/71             0           0     0     644     29816     `
+/86             0           0     0     644     64192     `
+/101            0           0     0     644     76816     `
+/116            0           0     0     644     32824     `
+/129            0           0     0     644     93744     `

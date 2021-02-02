@@ -1,0 +1,1 @@
+cmd_sound/soc/fsl/snd-soc-fsl-micfil.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-fsl-micfil.ko sound/soc/fsl/snd-soc-fsl-micfil.o sound/soc/fsl/snd-soc-fsl-micfil.mod.o;  true

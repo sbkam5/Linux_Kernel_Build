@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-mt6351.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-mt6351.ko sound/soc/codecs/snd-soc-mt6351.o sound/soc/codecs/snd-soc-mt6351.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_log_netdev.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_log_netdev.ko net/netfilter/nf_log_netdev.o net/netfilter/nf_log_netdev.mod.o;  true

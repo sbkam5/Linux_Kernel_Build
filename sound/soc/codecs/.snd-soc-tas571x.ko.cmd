@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-tas571x.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-tas571x.ko sound/soc/codecs/snd-soc-tas571x.o sound/soc/codecs/snd-soc-tas571x.mod.o;  true

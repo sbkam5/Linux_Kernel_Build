@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sst-sof-pcm512x.mod := { echo  sound/soc/intel/boards/sof_pcm512x.o sound/soc/intel/boards/hda_dsp_common.o;  echo; } > sound/soc/intel/boards/snd-soc-sst-sof-pcm512x.mod

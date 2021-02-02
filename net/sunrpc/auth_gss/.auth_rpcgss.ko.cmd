@@ -1,0 +1,1 @@
+cmd_net/sunrpc/auth_gss/auth_rpcgss.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o net/sunrpc/auth_gss/auth_rpcgss.ko net/sunrpc/auth_gss/auth_rpcgss.o net/sunrpc/auth_gss/auth_rpcgss.mod.o;  true

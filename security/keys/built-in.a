@@ -1,0 +1,45 @@
+!<thin>
+//                                              348       `
+gc.o/
+key.o/
+keyring.o/
+keyctl.o/
+permission.o/
+process_keys.o/
+request_key.o/
+request_key_auth.o/
+user_defined.o/
+compat.o/
+compat_dh.o/
+proc.o/
+sysctl.o/
+persistent.o/
+dh.o/
+keyctl_pkey.o/
+trusted-keys/trusted_tpm1.o/
+trusted-keys/trusted_tpm2.o/
+encrypted-keys/encrypted.o/
+encrypted-keys/ecryptfs_format.o/
+encrypted-keys/masterkey_trusted.o/
+
+/0              0           0     0     644     39056     `
+/6              0           0     0     644     130704    `
+/13             0           0     0     644     119704    `
+/24             0           0     0     644     139552    `
+/34             0           0     0     644     16512     `
+/48             0           0     0     644     95856     `
+/64             0           0     0     644     101120    `
+/79             0           0     0     644     38272     `
+/99             0           0     0     644     32216     `
+/115            0           0     0     644     18208     `
+/125            0           0     0     644     5960      `
+/138            0           0     0     644     48320     `
+/146            0           0     0     644     11448     `
+/156            0           0     0     644     27448     `
+/170            0           0     0     644     54176     `
+/176            0           0     0     644     30968     `
+/191            0           0     0     644     124360    `
+/220            0           0     0     644     65376     `
+/249            0           0     0     644     105616    `
+/277            0           0     0     644     7920      `
+/311            0           0     0     644     6192      `

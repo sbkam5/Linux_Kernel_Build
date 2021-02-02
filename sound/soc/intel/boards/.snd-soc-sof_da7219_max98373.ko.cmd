@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sof_da7219_max98373.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/intel/boards/snd-soc-sof_da7219_max98373.ko sound/soc/intel/boards/snd-soc-sof_da7219_max98373.o sound/soc/intel/boards/snd-soc-sof_da7219_max98373.mod.o;  true

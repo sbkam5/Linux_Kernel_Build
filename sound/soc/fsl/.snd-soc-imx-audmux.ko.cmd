@@ -1,0 +1,1 @@
+cmd_sound/soc/fsl/snd-soc-imx-audmux.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-imx-audmux.ko sound/soc/fsl/snd-soc-imx-audmux.o sound/soc/fsl/snd-soc-imx-audmux.mod.o;  true

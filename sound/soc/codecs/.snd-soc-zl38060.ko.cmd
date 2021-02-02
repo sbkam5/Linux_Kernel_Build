@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-zl38060.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/codecs/snd-soc-zl38060.ko sound/soc/codecs/snd-soc-zl38060.o sound/soc/codecs/snd-soc-zl38060.mod.o;  true

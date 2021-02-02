@@ -1,0 +1,1 @@
+cmd_sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.ko sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.o sound/soc/xilinx/snd-soc-xlnx-formatter-pcm.mod.o;  true

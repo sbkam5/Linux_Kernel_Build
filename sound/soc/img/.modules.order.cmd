@@ -1,0 +1,1 @@
+cmd_sound/soc/img/modules.order := {   echo sound/soc/img/img-i2s-in.ko;   echo sound/soc/img/img-i2s-out.ko;   echo sound/soc/img/img-parallel-out.ko;   echo sound/soc/img/img-spdif-in.ko;   echo sound/soc/img/img-spdif-out.ko;   echo sound/soc/img/pistachio-internal-dac.ko; :; } | awk '!x[$$0]++' - > sound/soc/img/modules.order

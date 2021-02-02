@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/boards/snd-soc-sof_da7219_max98373.mod := { echo  sound/soc/intel/boards/sof_da7219_max98373.o sound/soc/intel/boards/hda_dsp_common.o;  echo; } > sound/soc/intel/boards/snd-soc-sof_da7219_max98373.mod

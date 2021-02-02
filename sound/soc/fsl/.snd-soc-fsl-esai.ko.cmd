@@ -1,0 +1,1 @@
+cmd_sound/soc/fsl/snd-soc-fsl-esai.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-fsl-esai.ko sound/soc/fsl/snd-soc-fsl-esai.o sound/soc/fsl/snd-soc-fsl-esai.mod.o;  true

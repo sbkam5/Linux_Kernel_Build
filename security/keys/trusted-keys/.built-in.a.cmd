@@ -1,0 +1,1 @@
+cmd_security/keys/trusted-keys/built-in.a := rm -f security/keys/trusted-keys/built-in.a; ar cDPrST security/keys/trusted-keys/built-in.a security/keys/trusted-keys/trusted_tpm1.o security/keys/trusted-keys/trusted_tpm2.o

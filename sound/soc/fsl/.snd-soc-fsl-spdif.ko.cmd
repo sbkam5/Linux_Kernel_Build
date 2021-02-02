@@ -1,0 +1,1 @@
+cmd_sound/soc/fsl/snd-soc-fsl-spdif.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/soc/fsl/snd-soc-fsl-spdif.ko sound/soc/fsl/snd-soc-fsl-spdif.o sound/soc/fsl/snd-soc-fsl-spdif.mod.o;  true

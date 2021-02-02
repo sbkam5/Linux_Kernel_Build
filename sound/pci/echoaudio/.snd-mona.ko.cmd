@@ -1,0 +1,1 @@
+cmd_sound/pci/echoaudio/snd-mona.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o sound/pci/echoaudio/snd-mona.ko sound/pci/echoaudio/snd-mona.o sound/pci/echoaudio/snd-mona.mod.o;  true
