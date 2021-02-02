@@ -1,0 +1,1 @@
+cmd_arch/x86/platform/atom/punit_atom_debug.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o arch/x86/platform/atom/punit_atom_debug.ko arch/x86/platform/atom/punit_atom_debug.o arch/x86/platform/atom/punit_atom_debug.mod.o;  true

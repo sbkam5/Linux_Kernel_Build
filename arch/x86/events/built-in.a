@@ -1,0 +1,43 @@
+!<thin>
+//                                              272       `
+core.o/
+probe.o/
+amd/core.o/
+amd/uncore.o/
+amd/ibs.o/
+amd/iommu.o/
+msr.o/
+intel/core.o/
+intel/bts.o/
+intel/ds.o/
+intel/knc.o/
+intel/lbr.o/
+intel/p4.o/
+intel/p6.o/
+intel/pt.o/
+intel/uncore.o/
+intel/uncore_nhmex.o/
+intel/uncore_snb.o/
+intel/uncore_snbep.o/
+zhaoxin/core.o/
+
+/0              0           0     0     644     237344    `
+/8              0           0     0     644     11416     `
+/17             0           0     0     644     66768     `
+/29             0           0     0     644     74352     `
+/43             0           0     0     644     106800    `
+/54             0           0     0     644     50576     `
+/67             0           0     0     644     42016     `
+/74             0           0     0     644     321712    `
+/88             0           0     0     644     72120     `
+/101            0           0     0     644     149072    `
+/113            0           0     0     644     36744     `
+/126            0           0     0     644     142920    `
+/139            0           0     0     644     82200     `
+/151            0           0     0     644     31024     `
+/163            0           0     0     644     159880    `
+/175            0           0     0     644     163296    `
+/191            0           0     0     644     90600     `
+/213            0           0     0     644     80888     `
+/233            0           0     0     644     280472    `
+/255            0           0     0     644     54576     `
