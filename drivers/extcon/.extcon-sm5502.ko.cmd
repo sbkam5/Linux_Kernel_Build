@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-sm5502.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/extcon/extcon-sm5502.ko drivers/extcon/extcon-sm5502.o drivers/extcon/extcon-sm5502.mod.o;  true

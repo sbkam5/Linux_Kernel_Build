@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/tsi568.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/rapidio/switches/tsi568.ko drivers/rapidio/switches/tsi568.o drivers/rapidio/switches/tsi568.mod.o;  true

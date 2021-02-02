@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt7615/mt7663-usb-sdio-common.o := ld -m elf_x86_64   -r -o drivers/net/wireless/mediatek/mt76/mt7615/mt7663-usb-sdio-common.o drivers/net/wireless/mediatek/mt76/mt7615/usb_sdio.o

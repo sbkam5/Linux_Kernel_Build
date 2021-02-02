@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fbtft.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fbtft.ko drivers/staging/fbtft/fbtft.o drivers/staging/fbtft/fbtft.mod.o;  true

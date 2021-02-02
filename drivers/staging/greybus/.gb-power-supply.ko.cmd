@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-power-supply.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/greybus/gb-power-supply.ko drivers/staging/greybus/gb-power-supply.o drivers/staging/greybus/gb-power-supply.mod.o;  true

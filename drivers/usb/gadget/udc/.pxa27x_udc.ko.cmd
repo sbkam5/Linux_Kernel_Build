@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/pxa27x_udc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/udc/pxa27x_udc.ko drivers/usb/gadget/udc/pxa27x_udc.o drivers/usb/gadget/udc/pxa27x_udc.mod.o;  true

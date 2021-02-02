@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/i2400m/i2400m.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wimax/i2400m/i2400m.ko drivers/net/wimax/i2400m/i2400m.o drivers/net/wimax/i2400m/i2400m.mod.o;  true

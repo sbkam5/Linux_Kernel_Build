@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/realtek-smi.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/realtek-smi.ko drivers/net/dsa/realtek-smi.o drivers/net/dsa/realtek-smi.mod.o;  true

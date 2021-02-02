@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/i2c/atomisp-gc2235.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/atomisp/i2c/atomisp-gc2235.ko drivers/staging/media/atomisp/i2c/atomisp-gc2235.o drivers/staging/media/atomisp/i2c/atomisp-gc2235.mod.o;  true

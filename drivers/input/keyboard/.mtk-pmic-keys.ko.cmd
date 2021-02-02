@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mtk-pmic-keys.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/mtk-pmic-keys.ko drivers/input/keyboard/mtk-pmic-keys.o drivers/input/keyboard/mtk-pmic-keys.mod.o;  true

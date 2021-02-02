@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/comedi.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/comedi.ko drivers/staging/comedi/comedi.o drivers/staging/comedi/comedi.mod.o;  true

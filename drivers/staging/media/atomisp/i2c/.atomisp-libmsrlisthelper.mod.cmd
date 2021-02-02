@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/i2c/atomisp-libmsrlisthelper.mod := { echo  drivers/staging/media/atomisp/i2c/atomisp-libmsrlisthelper.o;  echo; } > drivers/staging/media/atomisp/i2c/atomisp-libmsrlisthelper.mod

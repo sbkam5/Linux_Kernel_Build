@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/vgg2432a4.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/vgg2432a4.ko drivers/video/backlight/vgg2432a4.o drivers/video/backlight/vgg2432a4.mod.o;  true

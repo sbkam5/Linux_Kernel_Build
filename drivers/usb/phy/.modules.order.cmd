@@ -1,0 +1,1 @@
+cmd_drivers/usb/phy/modules.order := {   echo drivers/usb/phy/phy-generic.ko;   echo drivers/usb/phy/phy-tahvo.ko;   echo drivers/usb/phy/phy-gpio-vbus-usb.ko;   echo drivers/usb/phy/phy-isp1301.ko; :; } | awk '!x[$$0]++' - > drivers/usb/phy/modules.order

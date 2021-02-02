@@ -1,0 +1,1 @@
+cmd_drivers/staging/unisys/visornic/visornic.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/unisys/visornic/visornic.ko drivers/staging/unisys/visornic/visornic.o drivers/staging/unisys/visornic/visornic.mod.o;  true

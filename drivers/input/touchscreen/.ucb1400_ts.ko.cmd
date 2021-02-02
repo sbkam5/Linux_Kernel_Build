@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ucb1400_ts.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/ucb1400_ts.ko drivers/input/touchscreen/ucb1400_ts.o drivers/input/touchscreen/ucb1400_ts.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/pci-hyperv-intf.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pci/controller/pci-hyperv-intf.ko drivers/pci/controller/pci-hyperv-intf.o drivers/pci/controller/pci-hyperv-intf.mod.o;  true

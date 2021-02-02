@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/ir38064.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/pmbus/ir38064.ko drivers/hwmon/pmbus/ir38064.o drivers/hwmon/pmbus/ir38064.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/savage/savagefb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/savage/savagefb.ko drivers/video/fbdev/savage/savagefb.o drivers/video/fbdev/savage/savagefb.mod.o;  true

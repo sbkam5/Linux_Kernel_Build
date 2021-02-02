@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/nvidia/forcedeth.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/nvidia/forcedeth.ko drivers/net/ethernet/nvidia/forcedeth.o drivers/net/ethernet/nvidia/forcedeth.mod.o;  true

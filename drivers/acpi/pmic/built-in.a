@@ -1,0 +1,19 @@
+!<thin>
+//                                              158       `
+intel_pmic.o/
+intel_pmic_bytcrc.o/
+intel_pmic_chtcrc.o/
+intel_pmic_xpower.o/
+intel_pmic_bxtwc.o/
+intel_pmic_chtwc.o/
+intel_pmic_chtdc_ti.o/
+tps68470_pmic.o/
+
+/0              0           0     0     644     32744     `
+/14             0           0     0     644     25832     `
+/35             0           0     0     644     18832     `
+/56             0           0     0     644     27368     `
+/77             0           0     0     644     27496     `
+/97             0           0     0     644     23944     `
+/117            0           0     0     644     23000     `
+/140            0           0     0     644     35760     `

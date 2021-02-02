@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-gpio.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/greybus/gb-gpio.ko drivers/staging/greybus/gb-gpio.o drivers/staging/greybus/gb-gpio.mod.o;  true

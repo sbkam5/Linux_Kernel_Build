@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/ddbridge/ddbridge.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/ddbridge/ddbridge.ko drivers/media/pci/ddbridge/ddbridge.o drivers/media/pci/ddbridge/ddbridge.mod.o;  true

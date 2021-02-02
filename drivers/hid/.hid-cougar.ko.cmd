@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-cougar.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-cougar.ko drivers/hid/hid-cougar.o drivers/hid/hid-cougar.mod.o;  true

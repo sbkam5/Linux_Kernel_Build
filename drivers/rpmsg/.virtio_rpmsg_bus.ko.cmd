@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/virtio_rpmsg_bus.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/rpmsg/virtio_rpmsg_bus.ko drivers/rpmsg/virtio_rpmsg_bus.o drivers/rpmsg/virtio_rpmsg_bus.mod.o;  true

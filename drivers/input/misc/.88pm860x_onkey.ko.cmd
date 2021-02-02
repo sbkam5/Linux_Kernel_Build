@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/88pm860x_onkey.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/88pm860x_onkey.ko drivers/input/misc/88pm860x_onkey.o drivers/input/misc/88pm860x_onkey.mod.o;  true

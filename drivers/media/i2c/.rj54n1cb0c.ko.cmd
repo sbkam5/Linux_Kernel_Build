@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/rj54n1cb0c.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/rj54n1cb0c.ko drivers/media/i2c/rj54n1cb0c.o drivers/media/i2c/rj54n1cb0c.mod.o;  true

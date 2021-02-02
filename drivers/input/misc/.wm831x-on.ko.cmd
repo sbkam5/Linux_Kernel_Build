@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/wm831x-on.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/wm831x-on.ko drivers/input/misc/wm831x-on.o drivers/input/misc/wm831x-on.mod.o;  true

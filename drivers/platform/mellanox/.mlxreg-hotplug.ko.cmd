@@ -1,0 +1,1 @@
+cmd_drivers/platform/mellanox/mlxreg-hotplug.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/mellanox/mlxreg-hotplug.ko drivers/platform/mellanox/mlxreg-hotplug.o drivers/platform/mellanox/mlxreg-hotplug.mod.o;  true

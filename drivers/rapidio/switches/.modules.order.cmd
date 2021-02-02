@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/modules.order := {   echo drivers/rapidio/switches/tsi57x.ko;   echo drivers/rapidio/switches/idtcps.ko;   echo drivers/rapidio/switches/tsi568.ko;   echo drivers/rapidio/switches/idt_gen2.ko;   echo drivers/rapidio/switches/idt_gen3.ko; :; } | awk '!x[$$0]++' - > drivers/rapidio/switches/modules.order

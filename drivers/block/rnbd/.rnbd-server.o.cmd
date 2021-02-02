@@ -1,0 +1,1 @@
+cmd_drivers/block/rnbd/rnbd-server.o := ld -m elf_x86_64   -r -o drivers/block/rnbd/rnbd-server.o drivers/block/rnbd/rnbd-common.o drivers/block/rnbd/rnbd-srv.o drivers/block/rnbd/rnbd-srv-dev.o drivers/block/rnbd/rnbd-srv-sysfs.o

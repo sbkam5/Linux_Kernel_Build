@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/ak8975.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/magnetometer/ak8975.ko drivers/iio/magnetometer/ak8975.o drivers/iio/magnetometer/ak8975.mod.o;  true

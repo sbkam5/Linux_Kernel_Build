@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/cros-ec-sensorhub.mod := { echo  drivers/platform/chrome/cros_ec_sensorhub.o drivers/platform/chrome/cros_ec_sensorhub_ring.o;  echo; } > drivers/platform/chrome/cros-ec-sensorhub.mod

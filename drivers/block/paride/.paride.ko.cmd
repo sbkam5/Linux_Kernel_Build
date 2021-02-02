@@ -1,0 +1,1 @@
+cmd_drivers/block/paride/paride.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/block/paride/paride.ko drivers/block/paride/paride.o drivers/block/paride/paride.mod.o;  true

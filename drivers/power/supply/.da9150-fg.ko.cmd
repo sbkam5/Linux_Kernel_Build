@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/da9150-fg.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/da9150-fg.ko drivers/power/supply/da9150-fg.o drivers/power/supply/da9150-fg.mod.o;  true

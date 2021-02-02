@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/aiptek.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/tablet/aiptek.ko drivers/input/tablet/aiptek.o drivers/input/tablet/aiptek.mod.o;  true

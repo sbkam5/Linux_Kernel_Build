@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/da9055_onkey.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/da9055_onkey.ko drivers/input/misc/da9055_onkey.o drivers/input/misc/da9055_onkey.mod.o;  true

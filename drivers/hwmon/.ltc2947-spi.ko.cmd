@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ltc2947-spi.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/ltc2947-spi.ko drivers/hwmon/ltc2947-spi.o drivers/hwmon/ltc2947-spi.mod.o;  true

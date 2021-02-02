@@ -1,0 +1,1 @@
+cmd_drivers/vme/bridges/vme_ca91cx42.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/vme/bridges/vme_ca91cx42.ko drivers/vme/bridges/vme_ca91cx42.o drivers/vme/bridges/vme_ca91cx42.mod.o;  true

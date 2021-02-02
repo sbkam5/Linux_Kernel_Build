@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtw88/rtw88_8723d.o := ld -m elf_x86_64   -r -o drivers/net/wireless/realtek/rtw88/rtw88_8723d.o drivers/net/wireless/realtek/rtw88/rtw8723d.o drivers/net/wireless/realtek/rtw88/rtw8723d_table.o

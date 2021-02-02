@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/axi-fan-control.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/axi-fan-control.ko drivers/hwmon/axi-fan-control.o drivers/hwmon/axi-fan-control.mod.o;  true

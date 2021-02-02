@@ -1,0 +1,1 @@
+cmd_drivers/regulator/max8925-regulator.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/regulator/max8925-regulator.ko drivers/regulator/max8925-regulator.o drivers/regulator/max8925-regulator.mod.o;  true

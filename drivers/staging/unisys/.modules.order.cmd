@@ -1,0 +1,1 @@
+cmd_drivers/staging/unisys/modules.order := {   cat drivers/staging/unisys/visornic/modules.order;   cat drivers/staging/unisys/visorinput/modules.order;   cat drivers/staging/unisys/visorhba/modules.order; :; } | awk '!x[$$0]++' - > drivers/staging/unisys/modules.order

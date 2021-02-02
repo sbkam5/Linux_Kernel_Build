@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/cavium/liquidio/modules.order := {   echo drivers/net/ethernet/cavium/liquidio/liquidio.ko;   echo drivers/net/ethernet/cavium/liquidio/liquidio_vf.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/cavium/liquidio/modules.order

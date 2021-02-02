@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/jr3_pci.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/jr3_pci.ko drivers/staging/comedi/drivers/jr3_pci.o drivers/staging/comedi/drivers/jr3_pci.mod.o;  true

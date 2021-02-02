@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ray_cs.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/ray_cs.ko drivers/net/wireless/ray_cs.o drivers/net/wireless/ray_cs.mod.o;  true

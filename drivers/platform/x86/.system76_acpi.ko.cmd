@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/system76_acpi.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/system76_acpi.ko drivers/platform/x86/system76_acpi.o drivers/platform/x86/system76_acpi.mod.o;  true

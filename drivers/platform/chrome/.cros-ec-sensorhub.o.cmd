@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/cros-ec-sensorhub.o := ld -m elf_x86_64   -r -o drivers/platform/chrome/cros-ec-sensorhub.o drivers/platform/chrome/cros_ec_sensorhub.o drivers/platform/chrome/cros_ec_sensorhub_ring.o

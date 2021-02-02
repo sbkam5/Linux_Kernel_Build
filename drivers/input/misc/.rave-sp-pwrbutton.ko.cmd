@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/rave-sp-pwrbutton.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/rave-sp-pwrbutton.ko drivers/input/misc/rave-sp-pwrbutton.o drivers/input/misc/rave-sp-pwrbutton.mod.o;  true

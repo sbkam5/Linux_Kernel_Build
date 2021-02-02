@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt7615/mt7663u.o := ld -m elf_x86_64   -r -o drivers/net/wireless/mediatek/mt76/mt7615/mt7663u.o drivers/net/wireless/mediatek/mt76/mt7615/usb.o drivers/net/wireless/mediatek/mt76/mt7615/usb_mcu.o

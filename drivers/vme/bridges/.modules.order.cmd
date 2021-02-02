@@ -1,0 +1,1 @@
+cmd_drivers/vme/bridges/modules.order := {   echo drivers/vme/bridges/vme_ca91cx42.ko;   echo drivers/vme/bridges/vme_tsi148.ko;   echo drivers/vme/bridges/vme_fake.ko; :; } | awk '!x[$$0]++' - > drivers/vme/bridges/modules.order

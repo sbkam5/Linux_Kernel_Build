@@ -1,0 +1,1 @@
+cmd_drivers/net/thunderbolt-net.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/thunderbolt-net.ko drivers/net/thunderbolt-net.o drivers/net/thunderbolt-net.mod.o;  true

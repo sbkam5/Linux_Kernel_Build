@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/rave-sp-backlight.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/rave-sp-backlight.ko drivers/video/backlight/rave-sp-backlight.o drivers/video/backlight/rave-sp-backlight.mod.o;  true

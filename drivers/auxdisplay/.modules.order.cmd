@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/modules.order := {   echo drivers/auxdisplay/charlcd.ko;   echo drivers/auxdisplay/ks0108.ko;   echo drivers/auxdisplay/cfag12864b.ko;   echo drivers/auxdisplay/cfag12864bfb.ko;   echo drivers/auxdisplay/img-ascii-lcd.ko;   echo drivers/auxdisplay/hd44780.ko;   echo drivers/auxdisplay/panel.ko; :; } | awk '!x[$$0]++' - > drivers/auxdisplay/modules.order

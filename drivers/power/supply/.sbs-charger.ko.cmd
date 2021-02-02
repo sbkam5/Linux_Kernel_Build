@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/sbs-charger.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/sbs-charger.ko drivers/power/supply/sbs-charger.o drivers/power/supply/sbs-charger.mod.o;  true

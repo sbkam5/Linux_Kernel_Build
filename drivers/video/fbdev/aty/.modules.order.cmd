@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/aty/modules.order := {   echo drivers/video/fbdev/aty/atyfb.ko;   echo drivers/video/fbdev/aty/aty128fb.ko;   echo drivers/video/fbdev/aty/radeonfb.ko; :; } | awk '!x[$$0]++' - > drivers/video/fbdev/aty/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/i40iw/i40iw.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/hw/i40iw/i40iw.ko drivers/infiniband/hw/i40iw/i40iw.o drivers/infiniband/hw/i40iw/i40iw.mod.o;  true

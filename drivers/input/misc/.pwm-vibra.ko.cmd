@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/pwm-vibra.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/pwm-vibra.ko drivers/input/misc/pwm-vibra.o drivers/input/misc/pwm-vibra.mod.o;  true

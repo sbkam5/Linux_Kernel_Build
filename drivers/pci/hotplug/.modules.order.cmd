@@ -1,0 +1,1 @@
+cmd_drivers/pci/hotplug/modules.order := {   echo drivers/pci/hotplug/cpcihp_zt5550.ko;   echo drivers/pci/hotplug/cpcihp_generic.ko;   echo drivers/pci/hotplug/acpiphp_ibm.ko; :; } | awk '!x[$$0]++' - > drivers/pci/hotplug/modules.order

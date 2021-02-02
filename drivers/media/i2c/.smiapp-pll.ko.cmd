@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/smiapp-pll.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/smiapp-pll.ko drivers/media/i2c/smiapp-pll.o drivers/media/i2c/smiapp-pll.mod.o;  true

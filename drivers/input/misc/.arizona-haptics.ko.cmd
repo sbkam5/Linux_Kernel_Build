@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/arizona-haptics.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/arizona-haptics.ko drivers/input/misc/arizona-haptics.o drivers/input/misc/arizona-haptics.mod.o;  true

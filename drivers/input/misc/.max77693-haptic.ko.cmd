@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/max77693-haptic.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/max77693-haptic.ko drivers/input/misc/max77693-haptic.o drivers/input/misc/max77693-haptic.mod.o;  true

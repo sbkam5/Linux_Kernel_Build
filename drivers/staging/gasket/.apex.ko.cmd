@@ -1,0 +1,1 @@
+cmd_drivers/staging/gasket/apex.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/gasket/apex.ko drivers/staging/gasket/apex.o drivers/staging/gasket/apex.mod.o;  true

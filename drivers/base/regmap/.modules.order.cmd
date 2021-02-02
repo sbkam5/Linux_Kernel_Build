@@ -1,0 +1,1 @@
+cmd_drivers/base/regmap/modules.order := {   echo drivers/base/regmap/regmap-slimbus.ko;   echo drivers/base/regmap/regmap-spmi.ko;   echo drivers/base/regmap/regmap-w1.ko;   echo drivers/base/regmap/regmap-sdw.ko;   echo drivers/base/regmap/regmap-sccb.ko;   echo drivers/base/regmap/regmap-i3c.ko; :; } | awk '!x[$$0]++' - > drivers/base/regmap/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/twl6030-gpadc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/twl6030-gpadc.ko drivers/iio/adc/twl6030-gpadc.o drivers/iio/adc/twl6030-gpadc.mod.o;  true

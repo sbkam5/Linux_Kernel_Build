@@ -1,0 +1,1 @@
+cmd_drivers/regulator/tps65086-regulator.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/regulator/tps65086-regulator.ko drivers/regulator/tps65086-regulator.o drivers/regulator/tps65086-regulator.mod.o;  true

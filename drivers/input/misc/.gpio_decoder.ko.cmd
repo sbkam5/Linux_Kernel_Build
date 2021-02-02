@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/gpio_decoder.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/gpio_decoder.ko drivers/input/misc/gpio_decoder.o drivers/input/misc/gpio_decoder.mod.o;  true

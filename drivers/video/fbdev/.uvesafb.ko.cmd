@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/uvesafb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/uvesafb.ko drivers/video/fbdev/uvesafb.o drivers/video/fbdev/uvesafb.mod.o;  true

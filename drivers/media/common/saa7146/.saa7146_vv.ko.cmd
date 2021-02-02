@@ -1,0 +1,1 @@
+cmd_drivers/media/common/saa7146/saa7146_vv.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/common/saa7146/saa7146_vv.ko drivers/media/common/saa7146/saa7146_vv.o drivers/media/common/saa7146/saa7146_vv.mod.o;  true

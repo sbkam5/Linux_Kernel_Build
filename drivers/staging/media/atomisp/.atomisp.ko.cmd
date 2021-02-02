@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/atomisp.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/atomisp/atomisp.ko drivers/staging/media/atomisp/atomisp.o drivers/staging/media/atomisp/atomisp.mod.o;  true

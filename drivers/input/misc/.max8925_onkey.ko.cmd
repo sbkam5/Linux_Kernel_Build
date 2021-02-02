@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/max8925_onkey.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/max8925_onkey.ko drivers/input/misc/max8925_onkey.o drivers/input/misc/max8925_onkey.mod.o;  true

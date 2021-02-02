@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/cirrusfb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/cirrusfb.ko drivers/video/fbdev/cirrusfb.o drivers/video/fbdev/cirrusfb.mod.o;  true

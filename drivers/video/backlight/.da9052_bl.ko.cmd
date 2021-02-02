@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/da9052_bl.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/da9052_bl.ko drivers/video/backlight/da9052_bl.o drivers/video/backlight/da9052_bl.mod.o;  true

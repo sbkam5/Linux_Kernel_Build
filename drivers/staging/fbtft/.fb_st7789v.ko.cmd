@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_st7789v.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/fbtft/fb_st7789v.ko drivers/staging/fbtft/fb_st7789v.o drivers/staging/fbtft/fb_st7789v.mod.o;  true

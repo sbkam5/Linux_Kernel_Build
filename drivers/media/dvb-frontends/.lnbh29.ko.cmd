@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/lnbh29.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/lnbh29.ko drivers/media/dvb-frontends/lnbh29.o drivers/media/dvb-frontends/lnbh29.mod.o;  true

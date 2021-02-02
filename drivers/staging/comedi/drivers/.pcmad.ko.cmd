@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/pcmad.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/pcmad.ko drivers/staging/comedi/drivers/pcmad.o drivers/staging/comedi/drivers/pcmad.mod.o;  true

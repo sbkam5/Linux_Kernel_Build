@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/ni/nixge.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/ni/nixge.ko drivers/net/ethernet/ni/nixge.o drivers/net/ethernet/ni/nixge.mod.o;  true

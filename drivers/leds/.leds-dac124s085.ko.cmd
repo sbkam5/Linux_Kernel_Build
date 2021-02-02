@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-dac124s085.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-dac124s085.ko drivers/leds/leds-dac124s085.o drivers/leds/leds-dac124s085.mod.o;  true

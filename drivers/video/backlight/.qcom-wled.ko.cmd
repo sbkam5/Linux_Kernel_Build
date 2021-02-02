@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/qcom-wled.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/qcom-wled.ko drivers/video/backlight/qcom-wled.o drivers/video/backlight/qcom-wled.mod.o;  true

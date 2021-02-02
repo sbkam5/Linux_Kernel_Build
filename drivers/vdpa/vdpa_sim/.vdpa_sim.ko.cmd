@@ -1,0 +1,1 @@
+cmd_drivers/vdpa/vdpa_sim/vdpa_sim.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/vdpa/vdpa_sim/vdpa_sim.ko drivers/vdpa/vdpa_sim/vdpa_sim.o drivers/vdpa/vdpa_sim/vdpa_sim.mod.o;  true

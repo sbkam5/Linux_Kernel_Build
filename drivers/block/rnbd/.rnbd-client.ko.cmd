@@ -1,0 +1,1 @@
+cmd_drivers/block/rnbd/rnbd-client.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/block/rnbd/rnbd-client.ko drivers/block/rnbd/rnbd-client.o drivers/block/rnbd/rnbd-client.mod.o;  true

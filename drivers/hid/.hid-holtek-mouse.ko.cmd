@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-holtek-mouse.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-holtek-mouse.ko drivers/hid/hid-holtek-mouse.o drivers/hid/hid-holtek-mouse.mod.o;  true

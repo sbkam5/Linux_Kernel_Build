@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/ltv350qv.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/ltv350qv.ko drivers/video/backlight/ltv350qv.o drivers/video/backlight/ltv350qv.mod.o;  true

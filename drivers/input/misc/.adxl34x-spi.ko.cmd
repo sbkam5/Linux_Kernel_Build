@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/adxl34x-spi.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/adxl34x-spi.ko drivers/input/misc/adxl34x-spi.o drivers/input/misc/adxl34x-spi.mod.o;  true

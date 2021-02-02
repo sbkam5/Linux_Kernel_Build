@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/as3711_bl.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/as3711_bl.ko drivers/video/backlight/as3711_bl.o drivers/video/backlight/as3711_bl.mod.o;  true

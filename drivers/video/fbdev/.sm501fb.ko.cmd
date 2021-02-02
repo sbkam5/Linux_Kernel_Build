@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/sm501fb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/sm501fb.ko drivers/video/fbdev/sm501fb.o drivers/video/fbdev/sm501fb.mod.o;  true

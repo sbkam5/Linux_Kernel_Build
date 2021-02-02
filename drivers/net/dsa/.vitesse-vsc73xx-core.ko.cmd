@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/vitesse-vsc73xx-core.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/vitesse-vsc73xx-core.ko drivers/net/dsa/vitesse-vsc73xx-core.o drivers/net/dsa/vitesse-vsc73xx-core.mod.o;  true

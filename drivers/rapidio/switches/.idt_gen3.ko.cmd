@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/idt_gen3.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/rapidio/switches/idt_gen3.ko drivers/rapidio/switches/idt_gen3.o drivers/rapidio/switches/idt_gen3.mod.o;  true

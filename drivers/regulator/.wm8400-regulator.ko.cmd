@@ -1,0 +1,1 @@
+cmd_drivers/regulator/wm8400-regulator.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/regulator/wm8400-regulator.ko drivers/regulator/wm8400-regulator.o drivers/regulator/wm8400-regulator.mod.o;  true

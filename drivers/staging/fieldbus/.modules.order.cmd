@@ -1,0 +1,1 @@
+cmd_drivers/staging/fieldbus/modules.order := {   echo drivers/staging/fieldbus/fieldbus_dev.ko;   cat drivers/staging/fieldbus/anybuss/modules.order; :; } | awk '!x[$$0]++' - > drivers/staging/fieldbus/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/c6xdigio.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/c6xdigio.ko drivers/staging/comedi/drivers/c6xdigio.o drivers/staging/comedi/drivers/c6xdigio.mod.o;  true

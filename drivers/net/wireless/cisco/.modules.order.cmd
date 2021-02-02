@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/cisco/modules.order := {   echo drivers/net/wireless/cisco/airo.ko;   echo drivers/net/wireless/cisco/airo_cs.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/cisco/modules.order

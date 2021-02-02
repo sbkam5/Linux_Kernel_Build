@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/i2c/ov5693/modules.order := {   echo drivers/staging/media/atomisp/i2c/ov5693/atomisp-ov5693.ko; :; } | awk '!x[$$0]++' - > drivers/staging/media/atomisp/i2c/ov5693/modules.order

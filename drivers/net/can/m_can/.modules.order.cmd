@@ -1,0 +1,1 @@
+cmd_drivers/net/can/m_can/modules.order := {   echo drivers/net/can/m_can/m_can.ko;   echo drivers/net/can/m_can/m_can_platform.ko;   echo drivers/net/can/m_can/tcan4x5x.ko; :; } | awk '!x[$$0]++' - > drivers/net/can/m_can/modules.order

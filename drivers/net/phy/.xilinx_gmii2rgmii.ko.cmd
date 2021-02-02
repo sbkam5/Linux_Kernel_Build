@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/xilinx_gmii2rgmii.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/xilinx_gmii2rgmii.ko drivers/net/phy/xilinx_gmii2rgmii.o drivers/net/phy/xilinx_gmii2rgmii.mod.o;  true

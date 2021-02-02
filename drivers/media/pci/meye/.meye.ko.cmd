@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/meye/meye.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/meye/meye.ko drivers/media/pci/meye/meye.o drivers/media/pci/meye/meye.mod.o;  true

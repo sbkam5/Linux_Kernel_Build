@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/smiapp/smiapp.o := ld -m elf_x86_64   -r -o drivers/media/i2c/smiapp/smiapp.o drivers/media/i2c/smiapp/smiapp-core.o drivers/media/i2c/smiapp/smiapp-regs.o drivers/media/i2c/smiapp/smiapp-quirk.o drivers/media/i2c/smiapp/smiapp-limits.o

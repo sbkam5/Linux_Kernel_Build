@@ -1,0 +1,1 @@
+cmd_drivers/misc/habanalabs/habanalabs.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/misc/habanalabs/habanalabs.ko drivers/misc/habanalabs/habanalabs.o drivers/misc/habanalabs/habanalabs.mod.o;  true

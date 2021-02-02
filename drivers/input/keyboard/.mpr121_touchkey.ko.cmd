@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mpr121_touchkey.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/mpr121_touchkey.ko drivers/input/keyboard/mpr121_touchkey.o drivers/input/keyboard/mpr121_touchkey.mod.o;  true

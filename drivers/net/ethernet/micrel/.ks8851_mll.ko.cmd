@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/micrel/ks8851_mll.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/micrel/ks8851_mll.ko drivers/net/ethernet/micrel/ks8851_mll.o drivers/net/ethernet/micrel/ks8851_mll.mod.o;  true

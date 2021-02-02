@@ -1,0 +1,1 @@
+cmd_drivers/input/input-polldev.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/input-polldev.ko drivers/input/input-polldev.o drivers/input/input-polldev.mod.o;  true

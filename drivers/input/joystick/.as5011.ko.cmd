@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/as5011.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/as5011.ko drivers/input/joystick/as5011.o drivers/input/joystick/as5011.mod.o;  true

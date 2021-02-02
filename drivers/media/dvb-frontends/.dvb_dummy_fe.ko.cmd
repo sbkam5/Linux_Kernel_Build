@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dvb_dummy_fe.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/dvb_dummy_fe.ko drivers/media/dvb-frontends/dvb_dummy_fe.o drivers/media/dvb-frontends/dvb_dummy_fe.mod.o;  true

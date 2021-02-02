@@ -1,0 +1,1 @@
+cmd_drivers/media/common/tveeprom.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/common/tveeprom.ko drivers/media/common/tveeprom.o drivers/media/common/tveeprom.mod.o;  true

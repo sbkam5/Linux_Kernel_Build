@@ -1,0 +1,1 @@
+cmd_drivers/phy/marvell/modules.order := {   echo drivers/phy/marvell/phy-pxa-28nm-hsic.ko;   echo drivers/phy/marvell/phy-pxa-28nm-usb2.ko; :; } | awk '!x[$$0]++' - > drivers/phy/marvell/modules.order

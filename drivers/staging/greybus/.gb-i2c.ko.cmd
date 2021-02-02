@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-i2c.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/greybus/gb-i2c.ko drivers/staging/greybus/gb-i2c.o drivers/staging/greybus/gb-i2c.mod.o;  true

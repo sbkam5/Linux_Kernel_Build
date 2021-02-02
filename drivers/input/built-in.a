@@ -1,0 +1,24 @@
+!<thin>
+//                                              174       `
+input.o/
+input-compat.o/
+input-mt.o/
+input-poller.o/
+ff-core.o/
+mousedev.o/
+evdev.o/
+keyboard/atkbd.o/
+touchscreen/of_touchscreen.o/
+touchscreen/elants_i2c.o/
+misc/uinput.o/
+/0              0           0     0     644     275256    `
+/9              0           0     0     644     24808     `
+/25             0           0     0     644     46104     `
+/37             0           0     0     644     39768     `
+/53             0           0     0     644     50512     `
+/64             0           0     0     644     106120    `
+/76             0           0     0     644     154432    `
+/85             0           0     0     644     167144    `
+/103            0           0     0     644     34464     `
+/133            0           0     0     644     132592    `
+/159            0           0     0     644     127600    `

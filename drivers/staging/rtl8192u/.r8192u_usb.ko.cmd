@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8192u/r8192u_usb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/rtl8192u/r8192u_usb.ko drivers/staging/rtl8192u/r8192u_usb.o drivers/staging/rtl8192u/r8192u_usb.mod.o;  true

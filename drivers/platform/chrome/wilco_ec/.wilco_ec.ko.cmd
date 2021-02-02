@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/wilco_ec/wilco_ec.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/chrome/wilco_ec/wilco_ec.ko drivers/platform/chrome/wilco_ec/wilco_ec.o drivers/platform/chrome/wilco_ec/wilco_ec.mod.o;  true

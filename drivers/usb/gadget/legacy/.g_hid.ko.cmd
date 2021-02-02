@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_hid.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/legacy/g_hid.ko drivers/usb/gadget/legacy/g_hid.o drivers/usb/gadget/legacy/g_hid.mod.o;  true

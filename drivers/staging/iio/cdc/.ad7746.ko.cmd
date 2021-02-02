@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/cdc/ad7746.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/iio/cdc/ad7746.ko drivers/staging/iio/cdc/ad7746.o drivers/staging/iio/cdc/ad7746.mod.o;  true

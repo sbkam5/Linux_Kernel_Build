@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_atmio16d.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/ni_atmio16d.ko drivers/staging/comedi/drivers/ni_atmio16d.o drivers/staging/comedi/drivers/ni_atmio16d.mod.o;  true

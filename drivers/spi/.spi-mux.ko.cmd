@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-mux.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/spi/spi-mux.ko drivers/spi/spi-mux.o drivers/spi/spi-mux.mod.o;  true

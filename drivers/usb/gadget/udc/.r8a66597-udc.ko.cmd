@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/r8a66597-udc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/udc/r8a66597-udc.ko drivers/usb/gadget/udc/r8a66597-udc.o drivers/usb/gadget/udc/r8a66597-udc.mod.o;  true

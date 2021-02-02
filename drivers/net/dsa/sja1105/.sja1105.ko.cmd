@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/sja1105/sja1105.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/sja1105/sja1105.ko drivers/net/dsa/sja1105/sja1105.o drivers/net/dsa/sja1105/sja1105.mod.o;  true

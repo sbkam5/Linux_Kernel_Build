@@ -1,0 +1,20 @@
+!<thin>
+//                                              208       `
+x86/touchscreen_dmi.o/
+x86/intel_turbo_max_3.o/
+x86/intel_pmc_core.o/
+x86/intel_pmc_core_pltdrv.o/
+x86/intel_scu_ipc.o/
+x86/intel_scu_pcidrv.o/
+x86/pmc_atom.o/
+chrome/cros_ec_proto.o/
+chrome/cros_ec_trace.o/
+/0              0           0     0     644     80448     `
+/23             0           0     0     644     29432     `
+/48             0           0     0     644     120376    `
+/70             0           0     0     644     20016     `
+/99             0           0     0     644     61336     `
+/120            0           0     0     644     23312     `
+/144            0           0     0     644     54168     `
+/160            0           0     0     644     87096     `
+/184            0           0     0     644     75688     `

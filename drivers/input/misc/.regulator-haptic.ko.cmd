@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/regulator-haptic.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/regulator-haptic.ko drivers/input/misc/regulator-haptic.o drivers/input/misc/regulator-haptic.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/mfd/intel_soc_pmic_mrfld.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/mfd/intel_soc_pmic_mrfld.ko drivers/mfd/intel_soc_pmic_mrfld.o drivers/mfd/intel_soc_pmic_mrfld.mod.o;  true

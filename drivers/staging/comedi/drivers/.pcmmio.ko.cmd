@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/pcmmio.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/pcmmio.ko drivers/staging/comedi/drivers/pcmmio.o drivers/staging/comedi/drivers/pcmmio.mod.o;  true

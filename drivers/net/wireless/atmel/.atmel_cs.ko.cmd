@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/atmel/atmel_cs.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/atmel/atmel_cs.ko drivers/net/wireless/atmel/atmel_cs.o drivers/net/wireless/atmel/atmel_cs.mod.o;  true

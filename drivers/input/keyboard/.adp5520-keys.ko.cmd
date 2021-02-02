@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/adp5520-keys.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/adp5520-keys.ko drivers/input/keyboard/adp5520-keys.o drivers/input/keyboard/adp5520-keys.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/dwc3/modules.order := {   echo drivers/usb/dwc3/dwc3.ko;   echo drivers/usb/dwc3/dwc3-pci.ko;   echo drivers/usb/dwc3/dwc3-haps.ko; :; } | awk '!x[$$0]++' - > drivers/usb/dwc3/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/chelsio/inline_crypto/ch_ipsec/ch_ipsec.o := ld -m elf_x86_64   -r -o drivers/net/ethernet/chelsio/inline_crypto/ch_ipsec/ch_ipsec.o drivers/net/ethernet/chelsio/inline_crypto/ch_ipsec/chcr_ipsec.o

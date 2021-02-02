@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/tdo24m.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/tdo24m.ko drivers/video/backlight/tdo24m.o drivers/video/backlight/tdo24m.mod.o;  true

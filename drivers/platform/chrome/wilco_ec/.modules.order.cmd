@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/wilco_ec/modules.order := {   echo drivers/platform/chrome/wilco_ec/wilco_ec.ko;   echo drivers/platform/chrome/wilco_ec/wilco_ec_debugfs.ko;   echo drivers/platform/chrome/wilco_ec/wilco_ec_events.ko;   echo drivers/platform/chrome/wilco_ec/wilco_ec_telem.ko; :; } | awk '!x[$$0]++' - > drivers/platform/chrome/wilco_ec/modules.order

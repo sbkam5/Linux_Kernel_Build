@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-pyra.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-pyra.ko drivers/hid/hid-roccat-pyra.o drivers/hid/hid-roccat-pyra.mod.o;  true

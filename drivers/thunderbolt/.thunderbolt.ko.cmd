@@ -1,0 +1,1 @@
+cmd_drivers/thunderbolt/thunderbolt.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/thunderbolt/thunderbolt.ko drivers/thunderbolt/thunderbolt.o drivers/thunderbolt/thunderbolt.mod.o;  true

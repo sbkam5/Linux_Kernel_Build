@@ -1,0 +1,1 @@
+cmd_drivers/fpga/altera-freeze-bridge.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/fpga/altera-freeze-bridge.ko drivers/fpga/altera-freeze-bridge.o drivers/fpga/altera-freeze-bridge.mod.o;  true

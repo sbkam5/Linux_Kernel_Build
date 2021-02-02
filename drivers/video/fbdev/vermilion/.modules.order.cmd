@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/vermilion/modules.order := {   echo drivers/video/fbdev/vermilion/vmlfb.ko;   echo drivers/video/fbdev/vermilion/crvml.ko; :; } | awk '!x[$$0]++' - > drivers/video/fbdev/vermilion/modules.order

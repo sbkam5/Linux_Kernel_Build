@@ -1,0 +1,1 @@
+cmd_drivers/staging/most/sound/most_sound.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/most/sound/most_sound.ko drivers/staging/most/sound/most_sound.o drivers/staging/most/sound/most_sound.mod.o;  true

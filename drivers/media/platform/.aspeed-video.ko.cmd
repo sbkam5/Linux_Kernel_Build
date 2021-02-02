@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/aspeed-video.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/aspeed-video.ko drivers/media/platform/aspeed-video.o drivers/media/platform/aspeed-video.mod.o;  true

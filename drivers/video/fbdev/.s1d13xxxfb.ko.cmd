@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/s1d13xxxfb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/s1d13xxxfb.ko drivers/video/fbdev/s1d13xxxfb.o drivers/video/fbdev/s1d13xxxfb.mod.o;  true

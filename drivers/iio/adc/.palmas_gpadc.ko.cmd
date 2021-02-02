@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/palmas_gpadc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/palmas_gpadc.ko drivers/iio/adc/palmas_gpadc.o drivers/iio/adc/palmas_gpadc.mod.o;  true

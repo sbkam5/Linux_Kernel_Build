@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/ds2782_battery.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/ds2782_battery.ko drivers/power/supply/ds2782_battery.o drivers/power/supply/ds2782_battery.mod.o;  true

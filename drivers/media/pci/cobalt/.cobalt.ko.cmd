@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/cobalt/cobalt.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/cobalt/cobalt.ko drivers/media/pci/cobalt/cobalt.o drivers/media/pci/cobalt/cobalt.mod.o;  true

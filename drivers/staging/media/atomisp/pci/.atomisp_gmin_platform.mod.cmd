@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/pci/atomisp_gmin_platform.mod := { echo  drivers/staging/media/atomisp/pci/atomisp_gmin_platform.o;  echo; } > drivers/staging/media/atomisp/pci/atomisp_gmin_platform.mod

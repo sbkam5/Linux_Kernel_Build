@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/test/efi_test.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/firmware/efi/test/efi_test.ko drivers/firmware/efi/test/efi_test.o drivers/firmware/efi/test/efi_test.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/iio/imu/fxos8700_i2c.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/imu/fxos8700_i2c.ko drivers/iio/imu/fxos8700_i2c.o drivers/iio/imu/fxos8700_i2c.mod.o;  true

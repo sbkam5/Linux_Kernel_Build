@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel_cht_int33fe.o := ld -m elf_x86_64   -r -o drivers/platform/x86/intel_cht_int33fe.o drivers/platform/x86/intel_cht_int33fe_common.o drivers/platform/x86/intel_cht_int33fe_typec.o drivers/platform/x86/intel_cht_int33fe_microb.o

@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/modules.order := {   cat drivers/rapidio/switches/modules.order;   cat drivers/rapidio/devices/modules.order;   echo drivers/rapidio/rio-scan.ko;   echo drivers/rapidio/rio_cm.ko; :; } | awk '!x[$$0]++' - > drivers/rapidio/modules.order

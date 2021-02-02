@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.ko drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.o drivers/net/wireless/quantenna/qtnfmac/qtnfmac_pcie.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/gs_fpgaboot/gs_fpga.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/gs_fpgaboot/gs_fpga.ko drivers/staging/gs_fpgaboot/gs_fpga.o drivers/staging/gs_fpgaboot/gs_fpga.mod.o;  true

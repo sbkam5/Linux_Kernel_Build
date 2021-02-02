@@ -1,0 +1,1 @@
+cmd_drivers/hwtracing/stm/stm_p_sys-t.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hwtracing/stm/stm_p_sys-t.ko drivers/hwtracing/stm/stm_p_sys-t.o drivers/hwtracing/stm/stm_p_sys-t.mod.o;  true

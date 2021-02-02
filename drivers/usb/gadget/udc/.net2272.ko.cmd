@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/net2272.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/usb/gadget/udc/net2272.ko drivers/usb/gadget/udc/net2272.o drivers/usb/gadget/udc/net2272.mod.o;  true

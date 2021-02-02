@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/amplc_dio200_common.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/amplc_dio200_common.ko drivers/staging/comedi/drivers/amplc_dio200_common.o drivers/staging/comedi/drivers/amplc_dio200_common.mod.o;  true

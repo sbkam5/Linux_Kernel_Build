@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/iqs269a.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/iqs269a.ko drivers/input/misc/iqs269a.o drivers/input/misc/iqs269a.mod.o;  true

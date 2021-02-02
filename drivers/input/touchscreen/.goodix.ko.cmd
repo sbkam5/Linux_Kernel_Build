@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/goodix.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/goodix.ko drivers/input/touchscreen/goodix.o drivers/input/touchscreen/goodix.mod.o;  true

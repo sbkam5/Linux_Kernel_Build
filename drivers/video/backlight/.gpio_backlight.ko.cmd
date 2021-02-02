@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/gpio_backlight.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/gpio_backlight.ko drivers/video/backlight/gpio_backlight.o drivers/video/backlight/gpio_backlight.mod.o;  true

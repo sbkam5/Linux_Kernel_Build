@@ -1,0 +1,1 @@
+cmd_drivers/vdpa/modules.order := {   echo drivers/vdpa/vdpa.ko;   cat drivers/vdpa/vdpa_sim/modules.order;   cat drivers/vdpa/ifcvf/modules.order; :; } | awk '!x[$$0]++' - > drivers/vdpa/modules.order

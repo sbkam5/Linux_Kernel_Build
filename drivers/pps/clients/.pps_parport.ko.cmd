@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps_parport.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pps/clients/pps_parport.ko drivers/pps/clients/pps_parport.o drivers/pps/clients/pps_parport.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/chelsio/inline_crypto/ch_ktls/ch_ktls.mod := { echo  drivers/net/ethernet/chelsio/inline_crypto/ch_ktls/chcr_ktls.o;  echo; } > drivers/net/ethernet/chelsio/inline_crypto/ch_ktls/ch_ktls.mod

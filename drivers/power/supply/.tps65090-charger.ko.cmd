@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/tps65090-charger.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/tps65090-charger.ko drivers/power/supply/tps65090-charger.o drivers/power/supply/tps65090-charger.mod.o;  true

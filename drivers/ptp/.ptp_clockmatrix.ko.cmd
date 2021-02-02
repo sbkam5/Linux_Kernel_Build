@@ -1,0 +1,1 @@
+cmd_drivers/ptp/ptp_clockmatrix.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/ptp/ptp_clockmatrix.ko drivers/ptp/ptp_clockmatrix.o drivers/ptp/ptp_clockmatrix.mod.o;  true

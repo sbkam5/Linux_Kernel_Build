@@ -1,0 +1,1 @@
+cmd_drivers/regulator/pfuze100-regulator.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/regulator/pfuze100-regulator.ko drivers/regulator/pfuze100-regulator.o drivers/regulator/pfuze100-regulator.mod.o;  true

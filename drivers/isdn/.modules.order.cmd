@@ -1,0 +1,1 @@
+cmd_drivers/isdn/modules.order := {   cat drivers/isdn/hardware/modules.order;   cat drivers/isdn/capi/modules.order;   cat drivers/isdn/mISDN/modules.order; :; } | awk '!x[$$0]++' - > drivers/isdn/modules.order

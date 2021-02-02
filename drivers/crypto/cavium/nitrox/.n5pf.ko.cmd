@@ -1,0 +1,1 @@
+cmd_drivers/crypto/cavium/nitrox/n5pf.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/crypto/cavium/nitrox/n5pf.ko drivers/crypto/cavium/nitrox/n5pf.o drivers/crypto/cavium/nitrox/n5pf.mod.o;  true

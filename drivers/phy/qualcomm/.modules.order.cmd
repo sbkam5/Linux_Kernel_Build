@@ -1,0 +1,1 @@
+cmd_drivers/phy/qualcomm/modules.order := {   echo drivers/phy/qualcomm/phy-qcom-usb-hs.ko;   echo drivers/phy/qualcomm/phy-qcom-usb-hsic.ko; :; } | awk '!x[$$0]++' - > drivers/phy/qualcomm/modules.order

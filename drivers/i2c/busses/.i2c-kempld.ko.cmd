@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-kempld.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-kempld.ko drivers/i2c/busses/i2c-kempld.o drivers/i2c/busses/i2c-kempld.mod.o;  true

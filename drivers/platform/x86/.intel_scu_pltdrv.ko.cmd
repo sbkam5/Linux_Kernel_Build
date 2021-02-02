@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel_scu_pltdrv.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/intel_scu_pltdrv.ko drivers/platform/x86/intel_scu_pltdrv.o drivers/platform/x86/intel_scu_pltdrv.mod.o;  true

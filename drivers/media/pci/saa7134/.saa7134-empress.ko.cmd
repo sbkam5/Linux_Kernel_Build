@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/saa7134/saa7134-empress.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/saa7134/saa7134-empress.ko drivers/media/pci/saa7134/saa7134-empress.o drivers/media/pci/saa7134/saa7134-empress.mod.o;  true

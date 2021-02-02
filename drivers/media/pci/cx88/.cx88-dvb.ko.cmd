@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/cx88/cx88-dvb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/cx88/cx88-dvb.ko drivers/media/pci/cx88/cx88-dvb.o drivers/media/pci/cx88/cx88-dvb.mod.o;  true

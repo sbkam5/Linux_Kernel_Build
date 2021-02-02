@@ -1,0 +1,1 @@
+cmd_drivers/staging/pi433/pi433.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/pi433/pi433.ko drivers/staging/pi433/pi433.o drivers/staging/pi433/pi433.mod.o;  true

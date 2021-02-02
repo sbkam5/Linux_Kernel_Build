@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/devices/modules.order := {   echo drivers/rapidio/devices/tsi721_mport.ko;   echo drivers/rapidio/devices/rio_mport_cdev.ko; :; } | awk '!x[$$0]++' - > drivers/rapidio/devices/modules.order

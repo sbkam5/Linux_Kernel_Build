@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/modules.order := {   echo drivers/rpmsg/rpmsg_core.ko;   echo drivers/rpmsg/rpmsg_char.ko;   echo drivers/rpmsg/qcom_glink.ko;   echo drivers/rpmsg/qcom_glink_rpm.ko;   echo drivers/rpmsg/virtio_rpmsg_bus.ko; :; } | awk '!x[$$0]++' - > drivers/rpmsg/modules.order

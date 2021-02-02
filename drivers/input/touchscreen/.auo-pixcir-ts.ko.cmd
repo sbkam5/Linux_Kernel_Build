@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/auo-pixcir-ts.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/auo-pixcir-ts.ko drivers/input/touchscreen/auo-pixcir-ts.o drivers/input/touchscreen/auo-pixcir-ts.mod.o;  true

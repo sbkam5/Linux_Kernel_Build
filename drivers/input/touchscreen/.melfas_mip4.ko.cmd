@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/melfas_mip4.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/melfas_mip4.ko drivers/input/touchscreen/melfas_mip4.o drivers/input/touchscreen/melfas_mip4.mod.o;  true

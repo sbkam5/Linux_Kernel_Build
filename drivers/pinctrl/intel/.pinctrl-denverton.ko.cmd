@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/pinctrl-denverton.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pinctrl/intel/pinctrl-denverton.ko drivers/pinctrl/intel/pinctrl-denverton.o drivers/pinctrl/intel/pinctrl-denverton.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-ali1563.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/i2c/busses/i2c-ali1563.ko drivers/i2c/busses/i2c-ali1563.o drivers/i2c/busses/i2c-ali1563.mod.o;  true

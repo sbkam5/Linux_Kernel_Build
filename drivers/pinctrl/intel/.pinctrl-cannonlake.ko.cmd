@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/pinctrl-cannonlake.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pinctrl/intel/pinctrl-cannonlake.ko drivers/pinctrl/intel/pinctrl-cannonlake.o drivers/pinctrl/intel/pinctrl-cannonlake.mod.o;  true

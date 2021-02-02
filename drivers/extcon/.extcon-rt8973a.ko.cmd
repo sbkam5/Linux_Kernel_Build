@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-rt8973a.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/extcon/extcon-rt8973a.ko drivers/extcon/extcon-rt8973a.o drivers/extcon/extcon-rt8973a.mod.o;  true

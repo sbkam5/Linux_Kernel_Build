@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/pinctrl-mcp23s08.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pinctrl/pinctrl-mcp23s08.ko drivers/pinctrl/pinctrl-mcp23s08.o drivers/pinctrl/pinctrl-mcp23s08.mod.o;  true

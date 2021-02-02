@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/pci/atomisp_gmin_platform.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/atomisp/pci/atomisp_gmin_platform.ko drivers/staging/media/atomisp/pci/atomisp_gmin_platform.o drivers/staging/media/atomisp/pci/atomisp_gmin_platform.mod.o;  true

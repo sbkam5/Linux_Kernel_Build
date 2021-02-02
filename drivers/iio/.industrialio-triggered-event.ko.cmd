@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio-triggered-event.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/industrialio-triggered-event.ko drivers/iio/industrialio-triggered-event.o drivers/iio/industrialio-triggered-event.mod.o;  true

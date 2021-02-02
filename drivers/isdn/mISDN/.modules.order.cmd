@@ -1,0 +1,1 @@
+cmd_drivers/isdn/mISDN/modules.order := {   echo drivers/isdn/mISDN/mISDN_core.ko;   echo drivers/isdn/mISDN/mISDN_dsp.ko;   echo drivers/isdn/mISDN/l1oip.ko; :; } | awk '!x[$$0]++' - > drivers/isdn/mISDN/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/sp5100_tco.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/sp5100_tco.ko drivers/watchdog/sp5100_tco.o drivers/watchdog/sp5100_tco.mod.o;  true

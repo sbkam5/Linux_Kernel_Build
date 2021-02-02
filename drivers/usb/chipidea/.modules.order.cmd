@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/modules.order := {   echo drivers/usb/chipidea/ci_hdrc.ko;   echo drivers/usb/chipidea/ci_hdrc_usb2.ko;   echo drivers/usb/chipidea/ci_hdrc_msm.ko;   echo drivers/usb/chipidea/ci_hdrc_pci.ko; :; } | awk '!x[$$0]++' - > drivers/usb/chipidea/modules.order

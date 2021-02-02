@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/qcom-spmi-vadc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/adc/qcom-spmi-vadc.ko drivers/iio/adc/qcom-spmi-vadc.o drivers/iio/adc/qcom-spmi-vadc.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/kpc2000/kpc2000/kpc2000.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/kpc2000/kpc2000/kpc2000.ko drivers/staging/kpc2000/kpc2000/kpc2000.o drivers/staging/kpc2000/kpc2000/kpc2000.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/reset/reset-ti-syscon.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/reset/reset-ti-syscon.ko drivers/reset/reset-ti-syscon.o drivers/reset/reset-ti-syscon.mod.o;  true

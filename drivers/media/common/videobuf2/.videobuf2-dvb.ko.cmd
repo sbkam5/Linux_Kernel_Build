@@ -1,0 +1,1 @@
+cmd_drivers/media/common/videobuf2/videobuf2-dvb.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/common/videobuf2/videobuf2-dvb.ko drivers/media/common/videobuf2/videobuf2-dvb.o drivers/media/common/videobuf2/videobuf2-dvb.mod.o;  true

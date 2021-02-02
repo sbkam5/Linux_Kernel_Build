@@ -1,0 +1,16 @@
+!<thin>
+//                                              136       `
+led-core.o/
+led-class.o/
+led-triggers.o/
+trigger/ledtrig-disk.o/
+trigger/ledtrig-mtd.o/
+trigger/ledtrig-cpu.o/
+trigger/ledtrig-panic.o/
+/0              0           0     0     644     63048     `
+/12             0           0     0     644     58792     `
+/25             0           0     0     644     71264     `
+/41             0           0     0     644     16832     `
+/65             0           0     0     644     15920     `
+/88             0           0     0     644     29976     `
+/111            0           0     0     644     19760     `

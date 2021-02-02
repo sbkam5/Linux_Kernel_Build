@@ -1,0 +1,23 @@
+!<thin>
+//                                              182       `
+thermal_core.o/
+thermal_sysfs.o/
+thermal_helpers.o/
+thermal_hwmon.o/
+gov_fair_share.o/
+gov_bang_bang.o/
+gov_step_wise.o/
+gov_user_space.o/
+gov_power_allocator.o/
+devfreq_cooling.o/
+
+/0              0           0     0     644     220568    `
+/16             0           0     0     644     93040     `
+/33             0           0     0     644     35264     `
+/52             0           0     0     644     40568     `
+/69             0           0     0     644     19856     `
+/87             0           0     0     644     21176     `
+/104            0           0     0     644     25720     `
+/121            0           0     0     644     15752     `
+/139            0           0     0     644     87848     `
+/162            0           0     0     644     55048     `

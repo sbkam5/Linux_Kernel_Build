@@ -1,0 +1,1 @@
+cmd_drivers/fpga/xilinx-spi.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/fpga/xilinx-spi.ko drivers/fpga/xilinx-spi.o drivers/fpga/xilinx-spi.mod.o;  true

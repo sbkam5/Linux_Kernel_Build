@@ -1,0 +1,16 @@
+!<thin>
+//                                              132       `
+touchscreen_dmi.o/
+intel_turbo_max_3.o/
+intel_pmc_core.o/
+intel_pmc_core_pltdrv.o/
+intel_scu_ipc.o/
+intel_scu_pcidrv.o/
+pmc_atom.o/
+/0              0           0     0     644     80448     `
+/19             0           0     0     644     29432     `
+/40             0           0     0     644     120376    `
+/58             0           0     0     644     20016     `
+/83             0           0     0     644     61336     `
+/100            0           0     0     644     23312     `
+/120            0           0     0     644     54168     `

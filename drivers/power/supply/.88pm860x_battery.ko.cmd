@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/88pm860x_battery.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/88pm860x_battery.ko drivers/power/supply/88pm860x_battery.o drivers/power/supply/88pm860x_battery.mod.o;  true

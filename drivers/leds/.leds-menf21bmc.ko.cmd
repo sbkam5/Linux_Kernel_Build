@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-menf21bmc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-menf21bmc.ko drivers/leds/leds-menf21bmc.o drivers/leds/leds-menf21bmc.mod.o;  true

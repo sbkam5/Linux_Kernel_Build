@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/ssp_sensors/modules.order := {   echo drivers/iio/common/ssp_sensors/sensorhub.ko;   echo drivers/iio/common/ssp_sensors/ssp_iio.ko; :; } | awk '!x[$$0]++' - > drivers/iio/common/ssp_sensors/modules.order

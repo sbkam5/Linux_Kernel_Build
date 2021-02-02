@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-adc-jack.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/extcon/extcon-adc-jack.ko drivers/extcon/extcon-adc-jack.o drivers/extcon/extcon-adc-jack.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/isdn/hardware/mISDN/isdnhdlc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/isdn/hardware/mISDN/isdnhdlc.ko drivers/isdn/hardware/mISDN/isdnhdlc.o drivers/isdn/hardware/mISDN/isdnhdlc.mod.o;  true

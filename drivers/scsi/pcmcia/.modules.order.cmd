@@ -1,0 +1,1 @@
+cmd_drivers/scsi/pcmcia/modules.order := {   echo drivers/scsi/pcmcia/qlogic_cs.ko;   echo drivers/scsi/pcmcia/fdomain_cs.ko;   echo drivers/scsi/pcmcia/aha152x_cs.ko;   echo drivers/scsi/pcmcia/sym53c500_cs.ko; :; } | awk '!x[$$0]++' - > drivers/scsi/pcmcia/modules.order

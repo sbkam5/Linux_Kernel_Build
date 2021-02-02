@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-wm831x-status.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/leds/leds-wm831x-status.ko drivers/leds/leds-wm831x-status.o drivers/leds/leds-wm831x-status.mod.o;  true

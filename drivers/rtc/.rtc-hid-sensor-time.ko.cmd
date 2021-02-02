@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-hid-sensor-time.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-hid-sensor-time.ko drivers/rtc/rtc-hid-sensor-time.o drivers/rtc/rtc-hid-sensor-time.mod.o;  true

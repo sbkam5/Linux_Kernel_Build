@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel_mid_powerbtn.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/intel_mid_powerbtn.ko drivers/platform/x86/intel_mid_powerbtn.o drivers/platform/x86/intel_mid_powerbtn.mod.o;  true

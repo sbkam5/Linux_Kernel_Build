@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/twidjoy.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/joystick/twidjoy.ko drivers/input/joystick/twidjoy.o drivers/input/joystick/twidjoy.mod.o;  true

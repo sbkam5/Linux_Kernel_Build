@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ti_am335x_tsc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/ti_am335x_tsc.ko drivers/input/touchscreen/ti_am335x_tsc.o drivers/input/touchscreen/ti_am335x_tsc.mod.o;  true

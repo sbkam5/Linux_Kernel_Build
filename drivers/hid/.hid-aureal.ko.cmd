@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-aureal.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-aureal.ko drivers/hid/hid-aureal.o drivers/hid/hid-aureal.mod.o;  true

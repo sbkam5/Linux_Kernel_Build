@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/usbduxfast.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/usbduxfast.ko drivers/staging/comedi/drivers/usbduxfast.o drivers/staging/comedi/drivers/usbduxfast.mod.o;  true

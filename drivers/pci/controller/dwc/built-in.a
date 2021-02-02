@@ -1,0 +1,11 @@
+!<thin>
+//                                              90        `
+pcie-designware.o/
+pcie-designware-host.o/
+pcie-designware-ep.o/
+pcie-designware-plat.o/
+
+/0              0           0     0     644     89072     `
+/19             0           0     0     644     77184     `
+/43             0           0     0     644     56912     `
+/65             0           0     0     644     24256     `

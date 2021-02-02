@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/atomisp/modules.order := {   cat drivers/staging/media/atomisp/i2c/modules.order;   echo drivers/staging/media/atomisp/atomisp.ko;   echo drivers/staging/media/atomisp/pci/atomisp_gmin_platform.ko; :; } | awk '!x[$$0]++' - > drivers/staging/media/atomisp/modules.order

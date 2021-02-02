@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/ufshcd-core.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/ufs/ufshcd-core.ko drivers/scsi/ufs/ufshcd-core.o drivers/scsi/ufs/ufshcd-core.mod.o;  true

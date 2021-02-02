@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/pinctrl-jasperlake.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pinctrl/intel/pinctrl-jasperlake.ko drivers/pinctrl/intel/pinctrl-jasperlake.o drivers/pinctrl/intel/pinctrl-jasperlake.mod.o;  true

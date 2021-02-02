@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/cadence/modules.order := {   echo drivers/media/platform/cadence/cdns-csi2rx.ko;   echo drivers/media/platform/cadence/cdns-csi2tx.ko; :; } | awk '!x[$$0]++' - > drivers/media/platform/cadence/modules.order

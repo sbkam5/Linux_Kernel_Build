@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/cx25821/cx25821-alsa.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/pci/cx25821/cx25821-alsa.ko drivers/media/pci/cx25821/cx25821-alsa.o drivers/media/pci/cx25821/cx25821-alsa.mod.o;  true

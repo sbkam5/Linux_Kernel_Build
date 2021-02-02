@@ -1,0 +1,1 @@
+cmd_drivers/iio/dummy/iio_dummy.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/dummy/iio_dummy.ko drivers/iio/dummy/iio_dummy.o drivers/iio/dummy/iio_dummy.mod.o;  true

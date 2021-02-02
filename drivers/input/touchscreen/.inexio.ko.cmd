@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/inexio.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/touchscreen/inexio.ko drivers/input/touchscreen/inexio.o drivers/input/touchscreen/inexio.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-kone.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-kone.ko drivers/hid/hid-roccat-kone.o drivers/hid/hid-roccat-kone.mod.o;  true

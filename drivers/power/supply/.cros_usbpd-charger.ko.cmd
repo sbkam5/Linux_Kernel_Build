@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/cros_usbpd-charger.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/cros_usbpd-charger.ko drivers/power/supply/cros_usbpd-charger.o drivers/power/supply/cros_usbpd-charger.mod.o;  true

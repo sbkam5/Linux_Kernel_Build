@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/ufshcd-pltfrm.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/ufs/ufshcd-pltfrm.ko drivers/scsi/ufs/ufshcd-pltfrm.o drivers/scsi/ufs/ufshcd-pltfrm.mod.o;  true

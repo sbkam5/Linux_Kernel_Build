@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-digittrade.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-digittrade.ko drivers/media/rc/keymaps/rc-digittrade.o drivers/media/rc/keymaps/rc-digittrade.mod.o;  true

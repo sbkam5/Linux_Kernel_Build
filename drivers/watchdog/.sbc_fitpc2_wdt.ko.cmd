@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/sbc_fitpc2_wdt.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/watchdog/sbc_fitpc2_wdt.ko drivers/watchdog/sbc_fitpc2_wdt.o drivers/watchdog/sbc_fitpc2_wdt.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/test-drivers/vimc/vimc.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/test-drivers/vimc/vimc.ko drivers/media/test-drivers/vimc/vimc.o drivers/media/test-drivers/vimc/vimc.mod.o;  true

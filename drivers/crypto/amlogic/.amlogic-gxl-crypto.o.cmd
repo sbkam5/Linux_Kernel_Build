@@ -1,0 +1,1 @@
+cmd_drivers/crypto/amlogic/amlogic-gxl-crypto.o := ld -m elf_x86_64   -r -o drivers/crypto/amlogic/amlogic-gxl-crypto.o drivers/crypto/amlogic/amlogic-gxl-core.o drivers/crypto/amlogic/amlogic-gxl-cipher.o

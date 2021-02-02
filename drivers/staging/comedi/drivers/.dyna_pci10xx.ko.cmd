@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/dyna_pci10xx.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/dyna_pci10xx.ko drivers/staging/comedi/drivers/dyna_pci10xx.o drivers/staging/comedi/drivers/dyna_pci10xx.mod.o;  true

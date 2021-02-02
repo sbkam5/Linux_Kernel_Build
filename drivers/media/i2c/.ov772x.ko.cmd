@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/ov772x.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/i2c/ov772x.ko drivers/media/i2c/ov772x.o drivers/media/i2c/ov772x.mod.o;  true

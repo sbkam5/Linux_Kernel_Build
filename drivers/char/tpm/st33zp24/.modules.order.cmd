@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/st33zp24/modules.order := {   echo drivers/char/tpm/st33zp24/tpm_st33zp24.ko;   echo drivers/char/tpm/st33zp24/tpm_st33zp24_i2c.ko;   echo drivers/char/tpm/st33zp24/tpm_st33zp24_spi.ko; :; } | awk '!x[$$0]++' - > drivers/char/tpm/st33zp24/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/infiniband/hw/mthca/ib_mthca.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/infiniband/hw/mthca/ib_mthca.ko drivers/infiniband/hw/mthca/ib_mthca.o drivers/infiniband/hw/mthca/ib_mthca.mod.o;  true

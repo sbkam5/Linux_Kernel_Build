@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-google-hammer.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-google-hammer.ko drivers/hid/hid-google-hammer.o drivers/hid/hid-google-hammer.mod.o;  true

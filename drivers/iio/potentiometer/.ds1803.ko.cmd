@@ -1,0 +1,1 @@
+cmd_drivers/iio/potentiometer/ds1803.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/potentiometer/ds1803.ko drivers/iio/potentiometer/ds1803.o drivers/iio/potentiometer/ds1803.mod.o;  true

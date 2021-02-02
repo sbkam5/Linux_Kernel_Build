@@ -1,0 +1,1 @@
+cmd_drivers/dax/pmem/modules.order := {   echo drivers/dax/pmem/dax_pmem.ko;   echo drivers/dax/pmem/dax_pmem_core.ko;   echo drivers/dax/pmem/dax_pmem_compat.ko; :; } | awk '!x[$$0]++' - > drivers/dax/pmem/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/net/wimax/i2400m/modules.order := {   echo drivers/net/wimax/i2400m/i2400m.ko;   echo drivers/net/wimax/i2400m/i2400m-usb.ko; :; } | awk '!x[$$0]++' - > drivers/net/wimax/i2400m/modules.order

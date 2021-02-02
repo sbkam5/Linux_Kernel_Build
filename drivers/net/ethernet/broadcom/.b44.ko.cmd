@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/b44.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/broadcom/b44.ko drivers/net/ethernet/broadcom/b44.o drivers/net/ethernet/broadcom/b44.mod.o;  true

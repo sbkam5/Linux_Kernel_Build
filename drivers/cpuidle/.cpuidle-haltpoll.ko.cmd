@@ -1,0 +1,1 @@
+cmd_drivers/cpuidle/cpuidle-haltpoll.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/cpuidle/cpuidle-haltpoll.ko drivers/cpuidle/cpuidle-haltpoll.o drivers/cpuidle/cpuidle-haltpoll.mod.o;  true

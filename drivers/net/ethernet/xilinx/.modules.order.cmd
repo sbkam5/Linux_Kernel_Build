@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/xilinx/modules.order := {   echo drivers/net/ethernet/xilinx/ll_temac.ko;   echo drivers/net/ethernet/xilinx/xilinx_emac.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/xilinx/modules.order

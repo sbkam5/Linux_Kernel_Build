@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/xen-tpmfront.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/char/tpm/xen-tpmfront.ko drivers/char/tpm/xen-tpmfront.o drivers/char/tpm/xen-tpmfront.mod.o;  true

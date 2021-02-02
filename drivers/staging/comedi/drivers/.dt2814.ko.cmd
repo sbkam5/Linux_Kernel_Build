@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/dt2814.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/dt2814.ko drivers/staging/comedi/drivers/dt2814.o drivers/staging/comedi/drivers/dt2814.mod.o;  true

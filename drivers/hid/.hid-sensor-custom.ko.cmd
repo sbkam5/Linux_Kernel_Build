@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-sensor-custom.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-sensor-custom.ko drivers/hid/hid-sensor-custom.o drivers/hid/hid-sensor-custom.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/regulator/da903x-regulator.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/regulator/da903x-regulator.ko drivers/regulator/da903x-regulator.o drivers/regulator/da903x-regulator.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/comedi/drivers/ni_660x.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/comedi/drivers/ni_660x.ko drivers/staging/comedi/drivers/ni_660x.o drivers/staging/comedi/drivers/ni_660x.mod.o;  true

@@ -1,0 +1,3 @@
+drivers/vdpa/vdpa.ko
+drivers/vdpa/vdpa_sim/vdpa_sim.ko
+drivers/vdpa/ifcvf/ifcvf.ko

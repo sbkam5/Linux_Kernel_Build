@@ -1,0 +1,1 @@
+cmd_drivers/staging/kpc2000/modules.order := {   cat drivers/staging/kpc2000/kpc2000/modules.order;   echo drivers/staging/kpc2000/kpc2000_i2c.ko;   echo drivers/staging/kpc2000/kpc2000_spi.ko;   cat drivers/staging/kpc2000/kpc_dma/modules.order; :; } | awk '!x[$$0]++' - > drivers/staging/kpc2000/modules.order

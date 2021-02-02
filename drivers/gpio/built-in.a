@@ -1,0 +1,30 @@
+!<thin>
+//                                              226       `
+gpiolib.o/
+gpiolib-devres.o/
+gpiolib-legacy.o/
+gpiolib-cdev.o/
+gpiolib-sysfs.o/
+gpiolib-acpi.o/
+gpio-crystalcove.o/
+gpio-msic.o/
+gpio-palmas.o/
+gpio-rc5t583.o/
+gpio-tps6586x.o/
+gpio-tps65910.o/
+gpio-tps68470.o/
+gpio-xilinx.o/
+/0              0           0     0     644     493864    `
+/11             0           0     0     644     42808     `
+/29             0           0     0     644     22272     `
+/47             0           0     0     644     169712    `
+/63             0           0     0     644     77720     `
+/80             0           0     0     644     125976    `
+/96             0           0     0     644     43616     `
+/116            0           0     0     644     36832     `
+/129            0           0     0     644     45784     `
+/144            0           0     0     644     30968     `
+/160            0           0     0     644     25904     `
+/177            0           0     0     644     29496     `
+/194            0           0     0     644     28872     `
+/211            0           0     0     644     40544     `

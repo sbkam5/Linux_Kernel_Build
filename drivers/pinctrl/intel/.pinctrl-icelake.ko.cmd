@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/pinctrl-icelake.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pinctrl/intel/pinctrl-icelake.ko drivers/pinctrl/intel/pinctrl-icelake.o drivers/pinctrl/intel/pinctrl-icelake.mod.o;  true

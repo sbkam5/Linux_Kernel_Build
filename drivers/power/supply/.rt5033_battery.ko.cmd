@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/rt5033_battery.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/power/supply/rt5033_battery.ko drivers/power/supply/rt5033_battery.o drivers/power/supply/rt5033_battery.mod.o;  true

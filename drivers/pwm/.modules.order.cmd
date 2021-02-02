@@ -1,0 +1,1 @@
+cmd_drivers/pwm/modules.order := {   echo drivers/pwm/pwm-cros-ec.ko;   echo drivers/pwm/pwm-iqs620a.ko;   echo drivers/pwm/pwm-lp3943.ko;   echo drivers/pwm/pwm-pca9685.ko;   echo drivers/pwm/pwm-twl.ko;   echo drivers/pwm/pwm-twl-led.ko; :; } | awk '!x[$$0]++' - > drivers/pwm/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/microchip/ksz8795.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/dsa/microchip/ksz8795.ko drivers/net/dsa/microchip/ksz8795.o drivers/net/dsa/microchip/ksz8795.mod.o;  true

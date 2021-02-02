@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/ipu3/ipu3-imgu.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/ipu3/ipu3-imgu.ko drivers/staging/media/ipu3/ipu3-imgu.o drivers/staging/media/ipu3/ipu3-imgu.mod.o;  true

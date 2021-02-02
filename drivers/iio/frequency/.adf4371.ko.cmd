@@ -1,0 +1,1 @@
+cmd_drivers/iio/frequency/adf4371.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/iio/frequency/adf4371.ko drivers/iio/frequency/adf4371.o drivers/iio/frequency/adf4371.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/cec/usb/rainshadow/rainshadow-cec.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/cec/usb/rainshadow/rainshadow-cec.ko drivers/media/cec/usb/rainshadow/rainshadow-cec.o drivers/media/cec/usb/rainshadow/rainshadow-cec.mod.o;  true

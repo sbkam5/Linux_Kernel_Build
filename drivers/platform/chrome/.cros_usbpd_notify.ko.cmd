@@ -1,0 +1,1 @@
+cmd_drivers/platform/chrome/cros_usbpd_notify.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/chrome/cros_usbpd_notify.ko drivers/platform/chrome/cros_usbpd_notify.o drivers/platform/chrome/cros_usbpd_notify.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/ethernet/broadcom/bnxt/bnxt_en.ko drivers/net/ethernet/broadcom/bnxt/bnxt_en.o drivers/net/ethernet/broadcom/bnxt/bnxt_en.mod.o;  true

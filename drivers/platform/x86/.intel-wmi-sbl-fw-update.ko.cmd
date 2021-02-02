@@ -1,0 +1,1 @@
+cmd_drivers/platform/x86/intel-wmi-sbl-fw-update.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/platform/x86/intel-wmi-sbl-fw-update.ko drivers/platform/x86/intel-wmi-sbl-fw-update.o drivers/platform/x86/intel-wmi-sbl-fw-update.mod.o;  true

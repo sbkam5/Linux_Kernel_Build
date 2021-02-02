@@ -1,0 +1,1 @@
+cmd_drivers/soc/xilinx/xlnx_vcu.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/soc/xilinx/xlnx_vcu.ko drivers/soc/xilinx/xlnx_vcu.o drivers/soc/xilinx/xlnx_vcu.mod.o;  true

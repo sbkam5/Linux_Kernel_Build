@@ -1,0 +1,1 @@
+cmd_drivers/scsi/pcmcia/sym53c500_cs.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/scsi/pcmcia/sym53c500_cs.ko drivers/scsi/pcmcia/sym53c500_cs.o drivers/scsi/pcmcia/sym53c500_cs.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/newtonkbd.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/keyboard/newtonkbd.ko drivers/input/keyboard/newtonkbd.o drivers/input/keyboard/newtonkbd.mod.o;  true

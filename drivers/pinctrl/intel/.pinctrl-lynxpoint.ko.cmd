@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/pinctrl-lynxpoint.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/pinctrl/intel/pinctrl-lynxpoint.ko drivers/pinctrl/intel/pinctrl-lynxpoint.o drivers/pinctrl/intel/pinctrl-lynxpoint.mod.o;  true

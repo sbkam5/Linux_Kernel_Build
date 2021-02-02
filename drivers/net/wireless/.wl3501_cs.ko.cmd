@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/wl3501_cs.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/wl3501_cs.ko drivers/net/wireless/wl3501_cs.o drivers/net/wireless/wl3501_cs.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-creative-sb0540.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-creative-sb0540.ko drivers/hid/hid-creative-sb0540.o drivers/hid/hid-creative-sb0540.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/gasket/gasket.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/staging/gasket/gasket.ko drivers/staging/gasket/gasket.o drivers/staging/gasket/gasket.mod.o;  true

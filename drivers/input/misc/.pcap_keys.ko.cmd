@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/pcap_keys.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/pcap_keys.ko drivers/input/misc/pcap_keys.o drivers/input/misc/pcap_keys.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-x96max.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/keymaps/rc-x96max.ko drivers/media/rc/keymaps/rc-x96max.o drivers/media/rc/keymaps/rc-x96max.mod.o;  true
